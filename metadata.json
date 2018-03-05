@@ -1,12 +1,12 @@
 {
-  "name": "wycore-fluentd",
+  "name": "pilchkinstein-fluentd",
   "version": "1.0.0",
-  "author": "wywy",
+  "author": "pilchkinstein-gtv",
   "summary": "Generic module for fluentd (td-agent).",
   "license": "Apache-2.0",
-  "source": "https://github.com/wycore/puppet-fluentd",
-  "project_page": "https://github.com/wycore/puppet-fluentd",
-  "issues_url": "https://github.com/wycore/puppet-fluentd/issues",
+  "source": "https://github.com/pilchkinstein-gtv/puppet-fluentd",
+  "project_page": "https://github.com/pilchkinstein-gtv/puppet-fluentd",
+  "issues_url": "https://github.com/pilchkinstein-gtv/puppet-fluentd/issues",
   "tags": ["fluentd", "td-agent"],
   "operatingsystem_support": [
     {
