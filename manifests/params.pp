@@ -18,6 +18,8 @@ class fluentd::params {
   $user_name   = 'td-agent'
   $user_group  = 'td-agent'
   $user_groups = ['adm']
+  # repo params
+  $repo_version = 3
 
   case $::osfamily {
     'Debian': {

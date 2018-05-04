@@ -8,6 +8,9 @@
 # [*repo_manage*]
 #   Include repository to install recent fluentd (td-agent) from
 #   Default: 'true'
+# [*repo_version*]
+#   The major version of td-agent to install
+#   Default: 3
 # [*package_ensure*]
 #   Package ensure
 #   Default: 'installed'
@@ -66,6 +69,7 @@
 #
 class fluentd (
   Boolean                     $repo_manage             = $::fluentd::params::repo_manage,
+  Integer                     $repo_version            = $::fluentd::params::repo_version,
   String                      $package_ensure          = $::fluentd::params::package_ensure,
   String                      $package_name            = $::fluentd::params::package_name,
   Array                       $package_install_options = $::fluentd::params::package_install_options,
