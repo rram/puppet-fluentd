@@ -94,6 +94,12 @@ class fluentd (
   include '::fluentd::config'
   include '::fluentd::service'
 
+  # Realize any virtual configurations
+  Fluentd::Plugin <| |>
+  Fluentd::Source <| |>
+  Fluentd::Filter <| |>
+  Fluentd::Match  <| |>
+
   # dependencies
   Class['::Fluentd::Repo']
   -> Class['::Fluentd::Install']
